@@ -91,6 +91,9 @@ Sarahy Gisselle Caicedo Betancourth & 2610315 \\
 \end{tabular}
 \vspace{1.6cm}
 
+{\normalsize Código fuente:\\[2pt] \href{https://github.com/Inmemorialake/Parcial-1-Infraestructuras-P-D}{\texttt{github.com/Inmemorialake/Parcial-1-Infraestructuras-P-D}}\par}
+\vspace{1cm}
+
 {\large Profesor: Manuel Alejandro Pastrana Pardo, PhD\par}
 \vspace{0.4cm}
 {\today\par}
@@ -699,7 +702,13 @@ memoria. Es el ``muro de memoria'' de las arquitecturas multinúcleo visto en cl
 \appendix
 \section{Cómo ejecutar}\label{sec:ejecutar}
 
+El código fuente, los datos de las mediciones y este informe están en
+\url{https://github.com/Inmemorialake/Parcial-1-Infraestructuras-P-D}.
+
 \begin{lstlisting}[language=bash]
+git clone https://github.com/Inmemorialake/Parcial-1-Infraestructuras-P-D.git
+cd Parcial-1-Infraestructuras-P-D
+
 # Entorno (conda/mamba): incluye MPICH y mpi4py
 mamba env create -f environment.yml && mamba activate vida-paralela
 
