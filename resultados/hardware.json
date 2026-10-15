@@ -1,0 +1,11 @@
+{
+  "sistema": "Linux 7.2.9-arch1-1",
+  "python": "3.12.15",
+  "cpu": "Intel Core i5-12450H (4 núcleos P con HT + 4 núcleos E)",
+  "nucleos_logicos": 12,
+  "nucleos_fisicos": 8,
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "mpi": "MPICH Version: 5.0.2",
+  "memoria": "8 GB DDR5-4800 en un solo canal"
+}

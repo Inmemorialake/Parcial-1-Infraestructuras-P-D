@@ -1,0 +1,30 @@
+\begin{tabular}{llrrrrrr}
+\toprule
+Tablero & Implementación & $P=1$ & $P=2$ & $P=4$ & $P=6$ & $P=8$ & $P=12$ \\
+\midrule
+\multirow{4}{*}{\shortstack[l]{100$\times$100\\\footnotesize sec.: 0,007 ms}} & Hilos, estática & 0,87 & 0,79 & 0,17 & 0,09 & 0,06 & 0,04 \\
+ & Hilos, dinámica & 0,61 & 0,23 & 0,08 & 0,04 & 0,03 & 0,02 \\
+ & Hilos nativos (prange) & 0,89 & 0,51 & 0,36 & 0,25 & 0,24 & 0,15 \\
+ & MPI & 0,81 & 1,05 & \textbf{1,38} & 0,68 & 0,69 & 0,18 \\
+\midrule
+\multirow{4}{*}{\shortstack[l]{500$\times$500\\\footnotesize sec.: 0,174 ms}} & Hilos, estática & 0,99 & 1,85 & \textbf{2,65} & 1,98 & 2,02 & 0,97 \\
+ & Hilos, dinámica & 0,98 & 1,70 & \textbf{1,93} & 0,85 & 0,56 & 0,36 \\
+ & Hilos nativos (prange) & 0,96 & 1,75 & \textbf{2,56} & 2,01 & 2,31 & 2,06 \\
+ & MPI & 0,95 & 1,91 & \textbf{3,59} & 2,56 & 3,17 & 1,80 \\
+\midrule
+\multirow{4}{*}{\shortstack[l]{1000$\times$1000\\\footnotesize sec.: 0,700 ms}} & Hilos, estática & 0,98 & 1,91 & \textbf{3,40} & 2,53 & 3,10 & 2,24 \\
+ & Hilos, dinámica & 1,00 & 1,88 & 3,17 & \textbf{3,35} & 2,36 & 1,44 \\
+ & Hilos nativos (prange) & 1,00 & 1,92 & 3,09 & 2,80 & 3,62 & \textbf{3,79} \\
+ & MPI & 0,98 & 1,95 & \textbf{3,81} & 2,85 & 3,70 & 2,21 \\
+\midrule
+\multirow{4}{*}{\shortstack[l]{2000$\times$2000\\\footnotesize sec.: 2,784 ms}} & Hilos, estática & 0,96 & 1,81 & 1,99 & 2,71 & 2,95 & \textbf{3,68} \\
+ & Hilos, dinámica & 0,98 & 1,93 & 3,50 & 3,95 & \textbf{4,50} & 4,02 \\
+ & Hilos nativos (prange) & 1,00 & 1,94 & 3,58 & 2,84 & 3,76 & \textbf{4,55} \\
+ & MPI & 0,99 & 1,97 & 3,80 & 2,93 & \textbf{3,87} & 2,90 \\
+\midrule
+\multirow{4}{*}{\shortstack[l]{4000$\times$4000\\\footnotesize sec.: 11,169 ms}} & Hilos, estática & 1,00 & 1,91 & 3,19 & 2,94 & 3,70 & \textbf{4,02} \\
+ & Hilos, dinámica & 0,98 & 1,90 & 3,34 & 4,14 & 4,56 & \textbf{4,61} \\
+ & Hilos nativos (prange) & 0,98 & 1,94 & 2,57 & 2,88 & 3,62 & \textbf{4,52} \\
+ & MPI & 0,99 & 1,97 & 3,81 & 2,94 & \textbf{3,83} & 3,40 \\
+\bottomrule
+\end{tabular}

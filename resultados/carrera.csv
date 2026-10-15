@@ -1,0 +1,12 @@
+variante,intento,celdas_distintas,tamano,gens,hilos
+sin_barrera,1,12913,300,200,4
+sin_barrera,2,12601,300,200,4
+sin_barrera,3,11942,300,200,4
+sin_barrera,4,11875,300,200,4
+sin_barrera,5,11892,300,200,4
+mismo_arreglo,1,37463,300,200,4
+correcta,1,0,300,200,4
+correcta,2,0,300,200,4
+correcta,3,0,300,200,4
+correcta,4,0,300,200,4
+correcta,5,0,300,200,4

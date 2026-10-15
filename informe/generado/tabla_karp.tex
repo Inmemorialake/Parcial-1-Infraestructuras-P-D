@@ -1,0 +1,25 @@
+\begin{tabular}{llrrrrr}
+\toprule
+Tablero & Implementación & $P=2$ & $P=4$ & $P=6$ & $P=8$ & $P=12$ \\
+\midrule
+\multirow{4}{*}{500$\times$500} & Hilos, estática & 0,082 & 0,171 & 0,406 & 0,423 & 1,034 \\
+ & Hilos, dinámica & 0,176 & 0,359 & 1,208 & 1,906 & 2,928 \\
+ & Hilos nativos (prange) & 0,142 & 0,187 & 0,396 & 0,352 & 0,439 \\
+ & MPI & 0,045 & 0,038 & 0,269 & 0,218 & 0,514 \\
+\midrule
+\multirow{4}{*}{1000$\times$1000} & Hilos, estática & 0,047 & 0,058 & 0,275 & 0,226 & 0,396 \\
+ & Hilos, dinámica & 0,062 & 0,087 & 0,158 & 0,341 & 0,665 \\
+ & Hilos nativos (prange) & 0,043 & 0,098 & 0,228 & 0,173 & 0,197 \\
+ & MPI & 0,026 & 0,017 & 0,221 & 0,166 & 0,402 \\
+\midrule
+\multirow{4}{*}{2000$\times$2000} & Hilos, estática & 0,106 & 0,335 & 0,244 & 0,244 & 0,206 \\
+ & Hilos, dinámica & 0,037 & 0,048 & 0,103 & 0,111 & 0,181 \\
+ & Hilos nativos (prange) & 0,032 & 0,039 & 0,222 & 0,161 & 0,149 \\
+ & MPI & 0,017 & 0,017 & 0,210 & 0,153 & 0,285 \\
+\midrule
+\multirow{4}{*}{4000$\times$4000} & Hilos, estática & 0,048 & 0,085 & 0,207 & 0,166 & 0,180 \\
+ & Hilos, dinámica & 0,055 & 0,065 & 0,090 & 0,108 & 0,146 \\
+ & Hilos nativos (prange) & 0,031 & 0,186 & 0,217 & 0,173 & 0,151 \\
+ & MPI & 0,017 & 0,017 & 0,209 & 0,156 & 0,230 \\
+\bottomrule
+\end{tabular}

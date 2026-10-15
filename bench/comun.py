@@ -32,7 +32,8 @@ def leer_csv(ruta):
 
 def _lscpu():
     try:
-        out = subprocess.run(["lscpu"], capture_output=True, text=True, timeout=5).stdout
+        entorno = dict(os.environ, LC_ALL="C")       # salida en inglés aunque el sistema esté en español
+        out = subprocess.run(["lscpu"], capture_output=True, text=True, timeout=5, env=entorno).stdout
         return dict(l.split(":", 1) for l in out.splitlines() if ":" in l)
     except Exception:
         return {}
