@@ -78,4 +78,4 @@ resultados/      CSV y figuras generadas
 informe/         informe LaTeX (+ generar_datos.py)
 SUSTENTACION.md  guion y preguntas probables para la sustentación oral
 ```
-Fin del comunicado.
+Fin del comunicado...
