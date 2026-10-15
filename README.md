@@ -1,5 +1,6 @@
 # Juego de la Vida paralelo — Parcial I (750023C)
 
+
 Infraestructuras Paralelas y Distribuidas · Universidad del Valle · 2026-2
 
 Juego de la Vida de Conway en cuatro versiones que comparten **el mismo kernel de cálculo**:
@@ -77,3 +78,4 @@ resultados/      CSV y figuras generadas
 informe/         informe LaTeX (+ generar_datos.py)
 SUSTENTACION.md  guion y preguntas probables para la sustentación oral
 ```
+Fin del comunicado.
