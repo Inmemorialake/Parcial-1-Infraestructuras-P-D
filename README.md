@@ -13,7 +13,7 @@ Juego de la Vida de Conway en cuatro versiones que comparten **el mismo kernel d
 | MPI | memoria distribuida: `mpi4py`, anillo periódico, filas fantasma con `Sendrecv` | `vida/motor_mpi.py` |
 
 Además incluye una interfaz gráfica (pygame) para todas las versiones, pruebas de correctitud, scripts de
-medición que generan CSV y gráficas, y el informe en LaTeX, que toma las cifras directamente de los CSV para una mayor comprensión de los resultados ejecutados.
+medición que generan CSV y gráficas, y el informe en LaTeX, que toma las cifras directamente de los CSV para una mayor comprensión de los resultados ejecutados y visualizarlos.
 
 ## Instalación
 
