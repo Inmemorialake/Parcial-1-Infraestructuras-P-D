@@ -1,0 +1,6 @@
+numpy>=1.26
+numba>=0.60
+pygame>=2.5
+matplotlib>=3.8
+mpi4py>=4.0      # requiere una implementación de MPI (MPICH u Open MPI) instalada
+pytest>=8

@@ -1,0 +1,12 @@
+name: vida-paralela
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - numba
+  - pygame
+  - matplotlib
+  - mpich
+  - mpi4py
+  - pytest
