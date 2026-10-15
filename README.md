@@ -65,9 +65,6 @@ Los resultados quedan en `resultados/` (`hilos.csv`, `mpi.csv`, `gil.csv`, `sinc
 `\dato{...}` para todas las cifras, así que se actualiza solo. **Solo hay que releer los párrafos de la
 sección "Análisis"** (marcados con `REVISAR` en `informe.tex`), porque interpretan las cifras.
 
-Para editar el informe en equipo con **Overleaf**: suba la carpeta `informe/` junto con
-`resultados/figuras/`, conservando la estructura de carpetas.
-
 ## Estructura
 
 ```
@@ -76,6 +73,5 @@ bench/           mediciones, experimentos y gráficas
 tests/           pruebas de correctitud (pytest) y verificación MPI
 resultados/      CSV y figuras generadas
 informe/         informe LaTeX (+ generar_datos.py)
-SUSTENTACION.md  guion y preguntas probables para la sustentación oral
 ```
 Fin del comunicado...
